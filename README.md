@@ -51,6 +51,10 @@ Built-in unit tests can be run from the command-line as follows:
 
     python -m warp.tests
 
+Note: some of the tests require `usd` files that are stored as git-lfs. Before running the above command you should pull these files by 
+
+    git lfs pull
+
 ## Omniverse
 
 A Warp Omniverse extension is available in the extension registry inside Omniverse Kit or Create:
